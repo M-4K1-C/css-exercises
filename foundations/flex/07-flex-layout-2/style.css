@@ -8,8 +8,8 @@ body {
 }
 
 .header {
-  font-weight: bolder;
-  font-size: 23px;
+  font-weight: 900;
+  font-size: 32px;
   background: darkmagenta;
   color: white;
   padding: 15px;
@@ -22,6 +22,7 @@ body {
 
 .sidebar ul,
 a {
+  font-size: 24px;
   list-style-type: none;
   text-decoration: none;
   color: white;
@@ -33,9 +34,9 @@ a {
 }
 
 .sidebar {
-  padding: 15px;
-  min-width: 150px;
-  max-width: 170px;
+  padding: 16px;
+  min-width: 300px;
+  max-width: 300px;
 }
 
 .cards {
@@ -43,13 +44,12 @@ a {
  flex-wrap: wrap;
  gap: 15px;
  margin: 15px;
- max-width: 800px;
 }
 
 .card {
   width: 200px;
-  height: 220px;
-  padding: 15px;
+  height: 200px;
+  padding: 48px;
 }
 
 .footer {
